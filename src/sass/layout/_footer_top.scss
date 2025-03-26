@@ -24,7 +24,7 @@
                 padding-top: 15px;
                 padding-bottom: 15px;
                 padding-left: 10px;
-                padding-right: 200px;
+                padding-right: 150px;
                 font-size: 14px;
             }
             .btn{
@@ -48,7 +48,7 @@
 
         .description{
             @include m.description();
-            max-width: 45%;
+            max-width: 65%;
             padding-bottom: 35px;
         }
 

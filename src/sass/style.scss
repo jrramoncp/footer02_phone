@@ -17,8 +17,10 @@ body{
     background: v.$background-color;
 }
 .footer{
-    padding-top: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 

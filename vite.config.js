@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/phone_footer', 
+  base: '/footer02_phone', 
 });
