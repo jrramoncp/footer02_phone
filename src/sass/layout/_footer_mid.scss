@@ -1,3 +1,20 @@
 @use '../abstract/_variables' as v;
 @use '../abstract/_mixins' as m;
 
+.footer__mid{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .logo{
+        display: flex;
+        align-items: center;
+        gap:120px ;
+        p{
+            font-size: 16px;
+        }
+    }
+    .phone{
+        font-size: 16px;
+    }
+}
