@@ -1,13 +1,83 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <footer class="footer">
+      <!-- FOOTER TOP -->
+      <section class="footer__top">
+        <!-- SUBSCRIBE -->
+        <div class="subscribe">
+          <p class="title">SUBSCRIBE</p>
+          <p class="description">Subscribe to stay tuned for new web design and latest updates. Let's do it! </p>
+
+          <form action="get">
+            <input type="email" Placeholder="Enter your email Address">
+            <button type="submit">Subscribe</button>
+          </form>
+
+          <div class="subscribe__icons">
+            <img src="/img/facebook-icon.svg" alt="Facebook Icon">
+            <img src="/img/figma-icon.svg" alt="Figma Icon">
+            <img src="/img/instagram-icon.svg" alt="Instagram Icon">
+            <img src="/img/telegram-icon.svg" alt="Telegram Icon">
+          </div>
+        </div>
+
+        <!-- INFO & LINKS -->
+         <div class="info">
+          <!-- info title and description -->
+          <p class="title">PROFESSIONAL WEB DESIGN</p>
+          <p class="description">Hi! My name ia Dmitrii Rogoza and i’m an expert in web design and branding. I can help you make your website more attractive</p>
+          <div class="links_container">
+            <!-- links -->
+            <ul class="product link-list">
+              <li>Product</li>
+              <li><a href="#">Landing Page</a></li>
+              <li><a href="#">Popup Builder</a></li>
+              <li><a href="#">Web-design</a></li>
+              <li><a href="#">Content</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+
+            <ul class="company link-list">
+              <li>Company</li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Teams</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- IMG CONTAINER -->
+          <div class="img__container">
+            <img src="/img/mobile.png" alt="Two mobile shapes.">
+          </div>
+         </div>
+      </section>
+      <hr>
+      <!-- FOOTER MID -->
+      <section class="footer__mid">
+        <div class="logo">
+          <img src="/img/site-logo.svg" alt="logo from site">
+          <p>Wisconsin Ave, Suite 700 Chevy Chase, Maryland 20815</p>
+        </div>
+        <p class="phone_number">+1 800 854-36-80</p>
+      </section>
+      <hr>
+      <!-- FOOTER BOTTOM -->
+       <p>© 2021 All Rights Reserved</p>
+       <ul class="privacy__links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Sales and Refunds</a></li>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Site Map</a></li>
+       </ul>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
