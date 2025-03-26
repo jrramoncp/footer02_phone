@@ -1,0 +1,84 @@
+@use '../abstract/_variables' as v;
+@use '../abstract/_mixins' as m;
+
+.footer__top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+    .subscribe{
+        grid-column: 1;
+        .title{
+            @include m.title();
+            padding-bottom: 27px;
+        }
+        .description{
+            @include m.description();
+            max-width: 60%;
+            padding-bottom: 39px;
+        }
+        form{
+            padding-bottom: 56px;
+            display: flex;
+            gap: 16px ;
+            input{
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 10px;
+                padding-right: 200px;
+                font-size: 14px;
+            }
+            .btn{
+                font-size: 14px;
+                padding: 16px 10px;
+                border: none;
+                color: v.$background-color;
+            }
+        }
+        .subscribe__icons{
+            display: flex;
+            gap: 32px ;
+        }
+    }
+    .info{
+        grid-column: 2;
+        .title{
+            @include m.title();
+            padding-bottom: 27px;
+        }
+
+        .description{
+            @include m.description();
+            max-width: 45%;
+            padding-bottom: 35px;
+        }
+
+        .links__container{
+            display: flex;
+            gap: 120px;
+            .link-list{
+                list-style-type: none;
+                li{
+                    margin-bottom: 16px;
+                    &:first-child{
+                        font-size: 18px;
+                        font-weight: v.$font-bold;
+                        margin-bottom: 25px;
+                    }
+                    a{
+                        font-size: 14px;
+                        text-decoration: none;
+                        font-weight: v.$font-regular;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                    
+                }
+
+            }
+        }
+    }
+    .img__container{
+        grid-column: 3;
+    }
+}
